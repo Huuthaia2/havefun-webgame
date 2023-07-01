@@ -5,6 +5,11 @@
         <meta name="oppo_title" content="Cube Master">
         <meta name="oppo_icon" content="https://res.minigame.vip/gc-assets/cube-master/cube-master_icon_132.png">
     <script>
+	    window.onload = function()
+{
+    // code
+	Unity.call("Unity window.onload");
+};
     const util = {
       throttle(fn, wait) {
         let inThrottle, lastFn, lastTime;
