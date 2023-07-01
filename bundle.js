@@ -18051,6 +18051,8 @@
             }
         }
         static watchVideo(cb, cl = null) {
+            console.log("Unity call watchVideo");
+            Unity.call('clicked');
             DataManager.instance.playFBVideo(cb);
             console.log("调用观看视频函数");
         }
